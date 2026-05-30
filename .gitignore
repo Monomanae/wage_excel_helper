@@ -1,0 +1,21 @@
+# PyInstaller build artifacts
+build/
+dist/
+*.spec
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Temp files created by the app
+~temp_bank_preview.xlsx
+
+# Excel temp files
+~$*.xlsx
+~$*.xls
+
+# VS Code
+.vscode/
+
+# Claude Code local memory
+.claude/
