@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install *)",
+      "Bash(python -c \"import openpyxl; import tkinter; from app import WageHelperApp; print\\('All imports OK'\\)\")",
+      "Bash(pyinstaller --onefile --windowed --name \"工资单助手\" main.py)",
+      "Bash(Remove-Item -Recurse -Force build)",
+      "Bash(Remove-Item -Force *.spec)"
+    ]
+  }
+}
